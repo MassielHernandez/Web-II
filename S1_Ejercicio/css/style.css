@@ -1,0 +1,52 @@
+body {
+	font-family: "Futura", sans-serif;
+	background-color: #faffd0
+
+}
+h2 {
+	
+	font-size: 25px;
+	color: #fdfcee;
+}
+
+p {
+	font-size: 14px;
+	line-height: 18px;
+	color:#faffd0;
+}
+
+.tienda {
+	width: 300px;
+	text-align: center;
+	float: left;
+	margin-left:20px;
+	margin-right: 20px;
+	margin-top: 25px;
+	background: #f23e10;
+	border-radius: 20px;
+	-webkit-border-radius: 15px;
+	padding: 25px;
+}
+
+.contenedor {
+	width: 1000px;
+	margin: 0 auto;
+}
+
+.tienda1 {
+	width: 800px;
+	margin: 0 auto;
+}
+
+.tienda2 {
+	width: 800px;
+	margin: 0 auto;
+}
+.tienda img {
+	width: 30%;
+	margin-bottom: 20px;
+	border-radius: 40%;
+	-webkit-border-radius: 50%;
+}
+
+
