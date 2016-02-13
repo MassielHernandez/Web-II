@@ -3,7 +3,7 @@ body {
 font-family: 'Bevan', cursive;
  color:#fff;
   background: -moz-repeating-linear-gradient(90deg, #F97507, #F97507 50px, #2CA3B4 30px, #2CA3B4 115px);
-background: -webkit-repeating-linear-gradient(90deg, #f6bd09, #f6bd09 50px, #2CA3B4 30px, #2CA3B4 60px);
+background: -webkit-repeating-linear-gradient(90deg, #021b74, #021b74 50px, #031556 50px, #031556 1150px);
 background-size: 100px 100px;
 }
 
@@ -11,7 +11,7 @@ h1 {
     position:absolute;
     top: 20px;
     left: 75px;
-    text-shadow: 3px 3px 2px #c59500;
+   
 
    color: #fff;
 }
@@ -116,7 +116,7 @@ height: auto;
 .butText span {
   border: 3px solid #fff;
   padding: 8px 20px;
-  text-shadow: 1px 2px #000
+  text-shadow: 4px 2px #000
   -webkit-box-shadow: inset 13px 9px 24px 0px rgba(0,0,0,0.74);
 -moz-box-shadow: inset 13px 9px 24px 0px rgba(0,0,0,0.74);
 box-shadow: inset 13px 9px 24px 0px rgba(0,0,0,0.74);

@@ -1,0 +1,102 @@
+/* fondo */
+html { 
+  background: url(../img/1.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  
+}
+
+.cta {
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  -moz-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+/* caja */
+.button {
+  display: inline-block;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    -ms-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+ font-family: 'futura', sans-serif;
+    font-size: 3em;
+    letter-spacing: 0.1em;
+    color: #ffffff;
+    text-decoration: none;
+    text-transform: uppercase;
+border: 0.15em solid #fff;
+    padding: 0.4em 0.6em;-webkit-transition: color 300ms, background 500ms, border-color 700ms;
+    transition: color 300ms, background 500ms, border-color 700ms;
+
+}
+.button:focus, .button:hover {
+ background: #079b9f;
+    border-color: #079b9f;
+    color: black;
+}
+
+
+/* frase */
+p {
+  max-width: 400px;
+  min-width: 280px;
+  margin: auto;
+  font-size: 18px;
+  text-align: center;
+}
+
+
+/* pop up */
+#peek-a-boo {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 100px 0;
+  font: 700 100px/80px sans-serif;
+  color: #fff;
+  text-align: center;
+  text-transform: uppercase;
+  background: #f05b0a;   
+  opacity: 0;
+  visibility: hidden;
+  -moz-transition: opacity 0.6s ease-in-out;
+  -o-transition: opacity 0.6s ease-in-out;
+  -webkit-transition: opacity 0.6s ease-in-out;
+  transition: opacity 0.6s ease-in-out;
+}
+#peek-a-boo:target {
+  opacity: 1;
+  visibility: visible;
+}
+#peek-a-boo div {
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  -moz-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+#peek-a-boo a {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  font: 300 12px/20px sans-serif;
+  color: white;
+  text-transform: lowercase;
+  text-decoration: none;
+}
+#peek-a-boo a span {
+  font-size: 40px;
+  vertical-align: middle;
+}
