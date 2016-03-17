@@ -38,8 +38,8 @@ border: 0.15em solid #fff;
 
 }
 .button:focus, .button:hover {
- background: #079b9f;
-    border-color: #079b9f;
+ background:#cc2222;
+    border-color: #cc2222;
     color: black;
 }
 
@@ -66,7 +66,7 @@ p {
   color: #fff;
   text-align: center;
   text-transform: uppercase;
-  background: #f05b0a;   
+  background: url(../img/2.jpg) no-repeat center center fixed; 
   opacity: 0;
   visibility: hidden;
   -moz-transition: opacity 0.6s ease-in-out;
